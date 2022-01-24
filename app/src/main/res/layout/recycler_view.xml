@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/recyclerRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list item"
+        android:textColor="#3C3B3A"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recyclerRow2"
+        android:layout_below="@+id/recyclerRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3B79F4"
+        android:text="list item"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recyclerRow3"
+        android:layout_below="@+id/recyclerRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list item"
+        android:textColor="#65489A"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recyclerRow4"
+        android:layout_below="@+id/recyclerRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8BC34A"
+        android:text="list item"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recyclerRow5"
+        android:layout_below="@+id/recyclerRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list item"
+        android:padding="10dp"
+        android:textColor="#D31818"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recyclerRow6"
+        android:layout_below="@+id/recyclerRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list item"
+        android:padding="10dp"
+        android:textColor="#CFC24B"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</RelativeLayout>
